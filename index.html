@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Portfolio — Code World</title>
+  <meta name="description" content="A scroll-driven 3D portfolio." />
+  <meta name="theme-color" content="#0a0810" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <div id="glitch" aria-hidden="true"></div>
+  <div id="vignette" aria-hidden="true"></div>
+
+  <div id="stage"></div>
+
+  <header id="hud">
+    <a class="logo" href="#" data-goto="home" aria-label="Home"><span>&lt;</span><b id="logo-text">YN</b><span>/&gt;</span></a>
+    <button id="menu-btn" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i><em>menu</em></button>
+  </header>
+
+  <nav id="rail" aria-label="Sections"></nav>
+
+  <div id="hero">
+    <h1 id="hero-name"></h1>
+    <p id="hero-role"></p>
+  </div>
+
+  <div id="scroll-hint"><span>scroll</span><i></i></div>
+  <div id="frame-readout" aria-hidden="true"></div>
+
+  <nav id="menu" aria-hidden="true"></nav>
+
+  <div id="loader">
+    <div class="loader-box">
+      <p class="loader-line"><span class="prompt">&gt;</span> <span id="loader-text">booting portfolio</span><span class="caret"></span></p>
+      <div class="loader-bar"><i id="loader-fill"></i></div>
+      <p class="loader-pct" id="loader-pct">0%</p>
+    </div>
+  </div>
+
+  <noscript><p style="color:#eee;padding:2rem">This portfolio needs JavaScript and WebGL.</p></noscript>
+</body>
+</html>

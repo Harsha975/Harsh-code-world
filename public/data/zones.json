@@ -1,0 +1,246 @@
+{
+ "markers": {
+  "home": 1,
+  "ride": 148,
+  "about": 476,
+  "skills": 835,
+  "projects": 1194,
+  "return": 1579,
+  "experience": 1795,
+  "contact": 1958
+ },
+ "zones": {
+  "home": {
+   "empty": "ZONE_home",
+   "visible_frames": [
+    1,
+    77
+   ],
+   "hold_frames": 77,
+   "px_at_1920x1080": [
+    609,
+    440
+   ],
+   "width_pct": 32,
+   "top_left_px_at_best_frame": [
+    109,
+    8
+   ],
+   "best_frame": 77
+  },
+  "about": {
+   "empty": "ZONE_about",
+   "visible_frames": [
+    380,
+    671
+   ],
+   "hold_frames": 292,
+   "px_at_1920x1080": [
+    607,
+    498
+   ],
+   "width_pct": 32,
+   "top_left_px_at_best_frame": [
+    375,
+    8
+   ],
+   "best_frame": 671
+  },
+  "skills": {
+   "empty": "ZONE_skills",
+   "visible_frames": [
+    821,
+    1000
+   ],
+   "hold_frames": 180,
+   "px_at_1920x1080": [
+    1240,
+    427
+   ],
+   "width_pct": 65,
+   "top_left_px_at_best_frame": [
+    679,
+    249
+   ],
+   "best_frame": 821
+  },
+  "experience": {
+   "empty": "ZONE_experience",
+   "visible_frames": [
+    1722,
+    1868
+   ],
+   "hold_frames": 147,
+   "px_at_1920x1080": [
+    1311,
+    661
+   ],
+   "width_pct": 68,
+   "top_left_px_at_best_frame": [
+    436,
+    149
+   ],
+   "best_frame": 1722,
+   "note": "Panel is EMPTY (title bar, 3 dots, status bar only). Safe to show content for the whole visible_frames range.",
+   "heading_anchor": {
+    "empty": "SLOT_experience_heading_anchor",
+    "world_blender_xyz": [
+     4.248,
+     -49.9,
+     14.369
+    ],
+    "title_bar_text_box_px_at_1920x1080": {
+     "left": 442,
+     "top": 233,
+     "width": 186,
+     "height": 40
+    },
+    "measured_at_frame": 1800,
+    "note": "Draw the heading in HTML here. The 3D text was removed. Title bar holds the 3 traffic dots on the left."
+   }
+  },
+  "contact": {
+   "empty": "ZONE_contact",
+   "visible_frames": [
+    1898,
+    2004
+   ],
+   "hold_frames": 107,
+   "px_at_1920x1080": [
+    1197,
+    598
+   ],
+   "width_pct": 62,
+   "top_left_px_at_best_frame": [
+    362,
+    241
+   ],
+   "best_frame": 2004,
+   "note": "Panel is EMPTY (title bar, 3 dots, status bar only). Safe to show content for the whole visible_frames range.",
+   "heading_anchor": {
+    "empty": "SLOT_contact_heading_anchor",
+    "world_blender_xyz": [
+     0.999,
+     -55.2,
+     17.117
+    ],
+    "title_bar_text_box_px_at_1920x1080": {
+     "left": 542,
+     "top": 192,
+     "width": 156,
+     "height": 34
+    },
+    "measured_at_frame": 1990,
+    "note": "Draw the heading in HTML here. The 3D text was removed. Title bar holds the 3 traffic dots on the left."
+   }
+  },
+  "project_0": {
+   "empty": "ZONE_project_0",
+   "visible_frames": [
+    1212,
+    1255
+   ],
+   "hold_frames": 44,
+   "px_at_1920x1080": [
+    1080,
+    458
+   ],
+   "width_pct": 56,
+   "top_left_px_at_best_frame": [
+    504,
+    307
+   ],
+   "best_frame": 1248
+  },
+  "project_1": {
+   "empty": "ZONE_project_1",
+   "visible_frames": [
+    1259,
+    1291
+   ],
+   "hold_frames": 33,
+   "px_at_1920x1080": [
+    1078,
+    458
+   ],
+   "width_pct": 56,
+   "top_left_px_at_best_frame": [
+    482,
+    307
+   ],
+   "best_frame": 1285
+  },
+  "project_2": {
+   "empty": "ZONE_project_2",
+   "visible_frames": [
+    1295,
+    1327
+   ],
+   "hold_frames": 33,
+   "px_at_1920x1080": [
+    1078,
+    458
+   ],
+   "width_pct": 56,
+   "top_left_px_at_best_frame": [
+    360,
+    307
+   ],
+   "best_frame": 1301
+  },
+  "project_3": {
+   "empty": "ZONE_project_3",
+   "visible_frames": [
+    1331,
+    1363
+   ],
+   "hold_frames": 33,
+   "px_at_1920x1080": [
+    1078,
+    458
+   ],
+   "width_pct": 56,
+   "top_left_px_at_best_frame": [
+    482,
+    307
+   ],
+   "best_frame": 1357
+  },
+  "project_4": {
+   "empty": "ZONE_project_4",
+   "visible_frames": [
+    1367,
+    1399
+   ],
+   "hold_frames": 33,
+   "px_at_1920x1080": [
+    1078,
+    458
+   ],
+   "width_pct": 56,
+   "top_left_px_at_best_frame": [
+    360,
+    307
+   ],
+   "best_frame": 1373
+  },
+  "project_5": {
+   "empty": "ZONE_project_5",
+   "visible_frames": [
+    1403,
+    1439
+   ],
+   "hold_frames": 37,
+   "px_at_1920x1080": [
+    1080,
+    458
+   ],
+   "width_pct": 56,
+   "top_left_px_at_best_frame": [
+    338,
+    307
+   ],
+   "best_frame": 1410
+  }
+ }
+}

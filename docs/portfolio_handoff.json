@@ -1,0 +1,849 @@
+{
+ "fps": 24,
+ "frames": [
+  1,
+  2040
+ ],
+ "loop": "frame 1 == frame 2040 (camera, apartment, sky, rain)",
+ "markers": {
+  "home": 1,
+  "ride": 148,
+  "about": 476,
+  "skills": 835,
+  "projects": 1194,
+  "return": 1579,
+  "experience": 1795,
+  "contact": 1958
+ },
+ "transitions": {
+  "monitor_dive_glitch": {
+   "frames": [
+    106,
+    148
+   ],
+   "note": "camera flies into the monitor, GL_Glitch node on material apt_screen_world peaks 136-147, hard cut to street at 148"
+  },
+  "ideas_for_threejs": [
+   "pixel/block dissolve",
+   "sound-wave ring wipe",
+   "warp tunnel",
+   "VHS crash",
+   "code-to-city"
+  ]
+ },
+ "sky_day_to_night": {
+  "148": "golden hour",
+  "835": "dusk",
+  "1579": "deep night",
+  "2040": "= frame 1"
+ },
+ "anchors": {
+  "ANCHOR_about": {
+   "blender_xyz": [
+    -134.0,
+    -36.0,
+    3.2
+   ],
+   "three_xyz": [
+    -134.0,
+    3.2,
+    36.0
+   ]
+  },
+  "ANCHOR_contact": {
+   "blender_xyz": [
+    -5.4,
+    -58.17,
+    9.22
+   ],
+   "three_xyz": [
+    -5.4,
+    9.22,
+    58.17
+   ]
+  },
+  "ANCHOR_home": {
+   "blender_xyz": [
+    -5.4,
+    -58.18,
+    9.22
+   ],
+   "three_xyz": [
+    -5.4,
+    9.22,
+    58.18
+   ]
+  },
+  "ANCHOR_projects": {
+   "blender_xyz": [
+    -55.0,
+    -34.0,
+    14.5
+   ],
+   "three_xyz": [
+    -55.0,
+    14.5,
+    34.0
+   ]
+  },
+  "ANCHOR_signal": {
+   "blender_xyz": [
+    -128.0,
+    -37.1,
+    4.2
+   ],
+   "three_xyz": [
+    -128.0,
+    4.2,
+    37.1
+   ]
+  },
+  "ANCHOR_skill_0": {
+   "blender_xyz": [
+    -95.0,
+    -27.3,
+    5.6
+   ],
+   "three_xyz": [
+    -95.0,
+    5.6,
+    27.3
+   ]
+  },
+  "ANCHOR_skill_1": {
+   "blender_xyz": [
+    -90.0,
+    -27.3,
+    5.6
+   ],
+   "three_xyz": [
+    -90.0,
+    5.6,
+    27.3
+   ]
+  },
+  "ANCHOR_skill_2": {
+   "blender_xyz": [
+    -85.0,
+    -27.3,
+    5.6
+   ],
+   "three_xyz": [
+    -85.0,
+    5.6,
+    27.3
+   ]
+  },
+  "ANCHOR_skill_3": {
+   "blender_xyz": [
+    -95.0,
+    -27.3,
+    3.0
+   ],
+   "three_xyz": [
+    -95.0,
+    3.0,
+    27.3
+   ]
+  },
+  "ANCHOR_skill_4": {
+   "blender_xyz": [
+    -90.0,
+    -27.3,
+    3.0
+   ],
+   "three_xyz": [
+    -90.0,
+    3.0,
+    27.3
+   ]
+  },
+  "ANCHOR_skill_5": {
+   "blender_xyz": [
+    -85.0,
+    -27.3,
+    3.0
+   ],
+   "three_xyz": [
+    -85.0,
+    3.0,
+    27.3
+   ]
+  },
+  "ANCHOR_skills": {
+   "blender_xyz": [
+    -90.0,
+    -27.1,
+    4.3
+   ],
+   "three_xyz": [
+    -90.0,
+    4.3,
+    27.1
+   ]
+  },
+  "SLOT_billboard_0_anchor": {
+   "blender_xyz": [
+    -111.13,
+    -8.85,
+    62.96
+   ],
+   "three_xyz": [
+    -111.13,
+    62.96,
+    8.85
+   ]
+  },
+  "SLOT_billboard_1_anchor": {
+   "blender_xyz": [
+    -53.39,
+    -8.85,
+    44.67
+   ],
+   "three_xyz": [
+    -53.39,
+    44.67,
+    8.85
+   ]
+  },
+  "SLOT_billboard_2_anchor": {
+   "blender_xyz": [
+    4.28,
+    -8.85,
+    38.69
+   ],
+   "three_xyz": [
+    4.28,
+    38.69,
+    8.85
+   ]
+  },
+  "SLOT_billboard_3_anchor": {
+   "blender_xyz": [
+    56.88,
+    -8.85,
+    42.13
+   ],
+   "three_xyz": [
+    56.88,
+    42.13,
+    8.85
+   ]
+  },
+  "SLOT_billboard_4_anchor": {
+   "blender_xyz": [
+    -256.0,
+    -8.85,
+    39.55
+   ],
+   "three_xyz": [
+    -256.0,
+    39.55,
+    8.85
+   ]
+  },
+  "SLOT_billboard_5_anchor": {
+   "blender_xyz": [
+    -201.7,
+    -8.85,
+    55.12
+   ],
+   "three_xyz": [
+    -201.7,
+    55.12,
+    8.85
+   ]
+  },
+  "SLOT_billboard_6_anchor": {
+   "blender_xyz": [
+    -147.4,
+    -8.85,
+    60.35
+   ],
+   "three_xyz": [
+    -147.4,
+    60.35,
+    8.85
+   ]
+  },
+  "SLOT_contact_email_anchor": {
+   "blender_xyz": [
+    -141.0,
+    -39.7,
+    12.2
+   ],
+   "three_xyz": [
+    -141.0,
+    12.2,
+    39.7
+   ]
+  },
+  "SLOT_contact_github_anchor": {
+   "blender_xyz": [
+    -129.0,
+    -39.7,
+    12.2
+   ],
+   "three_xyz": [
+    -129.0,
+    12.2,
+    39.7
+   ]
+  },
+  "SLOT_contact_headline_anchor": {
+   "blender_xyz": [
+    -135.0,
+    -39.5,
+    17.0
+   ],
+   "three_xyz": [
+    -135.0,
+    17.0,
+    39.5
+   ]
+  },
+  "SLOT_contact_linkedin_anchor": {
+   "blender_xyz": [
+    -135.0,
+    -39.7,
+    12.2
+   ],
+   "three_xyz": [
+    -135.0,
+    12.2,
+    39.7
+   ]
+  },
+  "SLOT_rooftop_contact": {
+   "blender_xyz": [
+    -135.0,
+    -37.0,
+    12.0
+   ],
+   "three_xyz": [
+    -135.0,
+    12.0,
+    37.0
+   ]
+  },
+  "SLOT_skill_0_anchor": {
+   "blender_xyz": [
+    -95.0,
+    -27.15,
+    5.6
+   ],
+   "three_xyz": [
+    -95.0,
+    5.6,
+    27.15
+   ]
+  },
+  "SLOT_skill_1_anchor": {
+   "blender_xyz": [
+    -90.0,
+    -27.15,
+    5.6
+   ],
+   "three_xyz": [
+    -90.0,
+    5.6,
+    27.15
+   ]
+  },
+  "SLOT_skill_2_anchor": {
+   "blender_xyz": [
+    -85.0,
+    -27.15,
+    5.6
+   ],
+   "three_xyz": [
+    -85.0,
+    5.6,
+    27.15
+   ]
+  },
+  "SLOT_skill_3_anchor": {
+   "blender_xyz": [
+    -95.0,
+    -27.15,
+    3.0
+   ],
+   "three_xyz": [
+    -95.0,
+    3.0,
+    27.15
+   ]
+  },
+  "SLOT_skill_4_anchor": {
+   "blender_xyz": [
+    -90.0,
+    -27.15,
+    3.0
+   ],
+   "three_xyz": [
+    -90.0,
+    3.0,
+    27.15
+   ]
+  },
+  "SLOT_skill_5_anchor": {
+   "blender_xyz": [
+    -85.0,
+    -27.15,
+    3.0
+   ],
+   "three_xyz": [
+    -85.0,
+    3.0,
+    27.15
+   ]
+  }
+ },
+ "light_plan": {
+  "count": 39,
+  "advice": "Three.js: keep at most ~6 real lights (moon directional + 4 key point lights + rider rim). Fake the rest with emissive meshes/sprites, or bake. Lights are left untouched in the .blend.",
+  "lights": [
+   {
+    "name": "apt_flamp_pt",
+    "type": "POINT",
+    "energy": 4.0
+   },
+   {
+    "name": "apt_glow_main",
+    "type": "AREA",
+    "energy": 25.0
+   },
+   {
+    "name": "apt_glow_side",
+    "type": "AREA",
+    "energy": 6.0
+   },
+   {
+    "name": "apt_lamp_pt",
+    "type": "POINT",
+    "energy": 2.5
+   },
+   {
+    "name": "apt_led_fill",
+    "type": "POINT",
+    "energy": 6.0
+   },
+   {
+    "name": "apt_neon_pt",
+    "type": "POINT",
+    "energy": 4.0
+   },
+   {
+    "name": "apt_rgb_pt",
+    "type": "POINT",
+    "energy": 3.0
+   },
+   {
+    "name": "apt_tv_glow",
+    "type": "AREA",
+    "energy": 20.0
+   },
+   {
+    "name": "CafeLight_L",
+    "type": "AREA",
+    "energy": 60.0
+   },
+   {
+    "name": "CafeLight_R",
+    "type": "AREA",
+    "energy": 60.0
+   },
+   {
+    "name": "ClubL_street",
+    "type": "POINT",
+    "energy": 1000.0
+   },
+   {
+    "name": "ClubL_street2",
+    "type": "POINT",
+    "energy": 1000.0
+   },
+   {
+    "name": "ContactLight",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "Headlight",
+    "type": "SPOT",
+    "energy": 0.0
+   },
+   {
+    "name": "MallL1",
+    "type": "POINT",
+    "energy": 1400.0
+   },
+   {
+    "name": "MallL2",
+    "type": "POINT",
+    "energy": 1100.0
+   },
+   {
+    "name": "MetroUnderLight_-100",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-120",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-140",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-160",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-180",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-200",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-40",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-60",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "MetroUnderLight_-80",
+    "type": "AREA",
+    "energy": 80.0
+   },
+   {
+    "name": "RimLight",
+    "type": "AREA",
+    "energy": 25.0
+   },
+   {
+    "name": "StLamp10",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp11",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp4",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp5",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp6",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp7",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp8",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "StLamp9",
+    "type": "POINT",
+    "energy": 700.0
+   },
+   {
+    "name": "Sun",
+    "type": "SUN",
+    "energy": 0.3
+   },
+   {
+    "name": "Taillight",
+    "type": "POINT",
+    "energy": 0.0
+   },
+   {
+    "name": "TLlight_amber",
+    "type": "POINT",
+    "energy": 0.0
+   },
+   {
+    "name": "TLlight_green",
+    "type": "POINT",
+    "energy": 260.0
+   },
+   {
+    "name": "TLlight_red",
+    "type": "POINT",
+    "energy": 0.0
+   }
+  ]
+ },
+ "stats": {
+  "meshes": 1436,
+  "approx_triangles": 136724
+ },
+ "sound_plan": [
+  "engine hum pitch follows scroll speed",
+  "distant traffic bed",
+  "soft synth pad; glitch sting at 122-147"
+ ],
+ "content_zones": {
+  "note": "Each ZONE_* empty is the clean area for your GSAP/Three.js content (empty cube, scale = size in metres). Experience and Contact panels contain NO animated decoration (removed); About/Skills/Projects/Home zones were already empty. Project zones are parented to PROJECT_TRAIN and move with it. Pixel sizes are for a 1920x1080 camera render; scale by viewport.",
+  "zones": {
+   "home": {
+    "empty": "ZONE_home",
+    "visible_frames": [
+     1,
+     77
+    ],
+    "hold_frames": 77,
+    "px_at_1920x1080": [
+     609,
+     440
+    ],
+    "width_pct": 32,
+    "top_left_px_at_best_frame": [
+     109,
+     8
+    ],
+    "best_frame": 77
+   },
+   "about": {
+    "empty": "ZONE_about",
+    "visible_frames": [
+     380,
+     671
+    ],
+    "hold_frames": 292,
+    "px_at_1920x1080": [
+     607,
+     498
+    ],
+    "width_pct": 32,
+    "top_left_px_at_best_frame": [
+     375,
+     8
+    ],
+    "best_frame": 671
+   },
+   "skills": {
+    "empty": "ZONE_skills",
+    "visible_frames": [
+     821,
+     1000
+    ],
+    "hold_frames": 180,
+    "px_at_1920x1080": [
+     1240,
+     427
+    ],
+    "width_pct": 65,
+    "top_left_px_at_best_frame": [
+     679,
+     249
+    ],
+    "best_frame": 821
+   },
+   "experience": {
+    "empty": "ZONE_experience",
+    "visible_frames": [
+     1722,
+     1868
+    ],
+    "hold_frames": 147,
+    "px_at_1920x1080": [
+     1311,
+     661
+    ],
+    "width_pct": 68,
+    "top_left_px_at_best_frame": [
+     436,
+     149
+    ],
+    "best_frame": 1722,
+    "note": "Panel is EMPTY (title bar, 3 dots, status bar only). Safe to show content for the whole visible_frames range.",
+    "heading_anchor": {
+     "empty": "SLOT_experience_heading_anchor",
+     "world_blender_xyz": [
+      4.248,
+      -49.9,
+      14.369
+     ],
+     "title_bar_text_box_px_at_1920x1080": {
+      "left": 442,
+      "top": 233,
+      "width": 186,
+      "height": 40
+     },
+     "measured_at_frame": 1800,
+     "note": "Draw the heading in HTML here. The 3D text was removed. Title bar holds the 3 traffic dots on the left."
+    }
+   },
+   "contact": {
+    "empty": "ZONE_contact",
+    "visible_frames": [
+     1898,
+     2004
+    ],
+    "hold_frames": 107,
+    "px_at_1920x1080": [
+     1197,
+     598
+    ],
+    "width_pct": 62,
+    "top_left_px_at_best_frame": [
+     362,
+     241
+    ],
+    "best_frame": 2004,
+    "note": "Panel is EMPTY (title bar, 3 dots, status bar only). Safe to show content for the whole visible_frames range.",
+    "heading_anchor": {
+     "empty": "SLOT_contact_heading_anchor",
+     "world_blender_xyz": [
+      0.999,
+      -55.2,
+      17.117
+     ],
+     "title_bar_text_box_px_at_1920x1080": {
+      "left": 542,
+      "top": 192,
+      "width": 156,
+      "height": 34
+     },
+     "measured_at_frame": 1990,
+     "note": "Draw the heading in HTML here. The 3D text was removed. Title bar holds the 3 traffic dots on the left."
+    }
+   },
+   "project_0": {
+    "empty": "ZONE_project_0",
+    "visible_frames": [
+     1212,
+     1255
+    ],
+    "hold_frames": 44,
+    "px_at_1920x1080": [
+     1080,
+     458
+    ],
+    "width_pct": 56,
+    "top_left_px_at_best_frame": [
+     504,
+     307
+    ],
+    "best_frame": 1248
+   },
+   "project_1": {
+    "empty": "ZONE_project_1",
+    "visible_frames": [
+     1259,
+     1291
+    ],
+    "hold_frames": 33,
+    "px_at_1920x1080": [
+     1078,
+     458
+    ],
+    "width_pct": 56,
+    "top_left_px_at_best_frame": [
+     482,
+     307
+    ],
+    "best_frame": 1285
+   },
+   "project_2": {
+    "empty": "ZONE_project_2",
+    "visible_frames": [
+     1295,
+     1327
+    ],
+    "hold_frames": 33,
+    "px_at_1920x1080": [
+     1078,
+     458
+    ],
+    "width_pct": 56,
+    "top_left_px_at_best_frame": [
+     360,
+     307
+    ],
+    "best_frame": 1301
+   },
+   "project_3": {
+    "empty": "ZONE_project_3",
+    "visible_frames": [
+     1331,
+     1363
+    ],
+    "hold_frames": 33,
+    "px_at_1920x1080": [
+     1078,
+     458
+    ],
+    "width_pct": 56,
+    "top_left_px_at_best_frame": [
+     482,
+     307
+    ],
+    "best_frame": 1357
+   },
+   "project_4": {
+    "empty": "ZONE_project_4",
+    "visible_frames": [
+     1367,
+     1399
+    ],
+    "hold_frames": 33,
+    "px_at_1920x1080": [
+     1078,
+     458
+    ],
+    "width_pct": 56,
+    "top_left_px_at_best_frame": [
+     360,
+     307
+    ],
+    "best_frame": 1373
+   },
+   "project_5": {
+    "empty": "ZONE_project_5",
+    "visible_frames": [
+     1403,
+     1439
+    ],
+    "hold_frames": 37,
+    "px_at_1920x1080": [
+     1080,
+     458
+    ],
+    "width_pct": 56,
+    "top_left_px_at_best_frame": [
+     338,
+     307
+    ],
+    "best_frame": 1410
+   }
+  }
+ }
+}
