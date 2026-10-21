@@ -71,8 +71,8 @@ ul, ol { list-style: none; }
 .zbox small { font-size: 13px; color: var(--dim); }
 .zbox .n { font-size: 13px; color: var(--accent); letter-spacing: 0.12em; }
 
-/* glass: About, Skills, Projects */
-.z-about .fit, .z-skill .fit, .z-project .fit {
+/* glass: Skills + Projects */
+.z-skill .fit, .z-project .fit {
   background: var(--glass-bg);
   -webkit-backdrop-filter: blur(16px) saturate(1.5);
   backdrop-filter: blur(16px) saturate(1.5);
@@ -81,16 +81,17 @@ ul, ol { list-style: none; }
   box-shadow: var(--glass-shadow);
   overflow: hidden;
 }
-.z-about .fit::before, .z-skill .fit::before, .z-project .fit::before {
+.z-skill .fit::before, .z-project .fit::before {
   content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
   background: linear-gradient(115deg, transparent 38%, rgba(255, 255, 255, 0.14) 50%, transparent 62%);
   transform: translateX(-120%); transition: transform 0.9s ease;
 }
 .z-skill .fit:hover::before, .z-project .fit:hover::before { transform: translateX(120%); }
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  .z-about .fit, .z-skill .fit, .z-project .fit { background: rgba(20, 14, 32, 0.82); }
+  .z-skill .fit, .z-project .fit { background: rgba(20, 14, 32, 0.82); }
 }
 
+.z-about .fit { background: transparent; border: 0; border-radius: 0; }
 .z-about .inner { padding: 28px 30px; gap: 12px; }
 .z-about h3 { font-size: 36px; }
 .z-about dl { display: grid; gap: 6px; margin-top: 4px; }

@@ -4,9 +4,9 @@
 // =====================================================================
 
 export const content = {
-  name: 'Your Name',
-  initials: 'YN',
-  role: 'Developer · Designer · Tinkerer',
+  name: 'Harsha M',
+  initials: 'HM',
+  role: 'AI Enthusiast · Full-stack Developer',
 
   menu: [
     { id: 'home', label: 'Home' },
@@ -20,53 +20,50 @@ export const content = {
   about: {
     title: 'About',
     paragraphs: [
-      'Write two or three short sentences about who you are and what you build.',
-      'Say what you love working on, and what you are learning right now.',
+      "I write code the way some people doodle: because it's fun and I can't stop. Backend services, AI agents, full-stack apps. Oh, and a 9.5 CGPA from REVA University, but that was never really the point."
     ],
     facts: [
-      ['Based in', 'City, Country'],
-      ['Focus', 'Your main focus'],
-      ['Currently', 'What you are learning'],
+      ['Education', 'B.Tech Computer Science'],
+      ['Graduated', 'REVA University · 2025 · 9.5 CGPA'],
+      ['Based in', 'Bangalore, India'],
     ],
   },
 
   // Six skills — they sit on the six signs on the building.
   skills: [
-    { name: 'Skill One', note: 'One short line' },
-    { name: 'Skill Two', note: 'One short line' },
-    { name: 'Skill Three', note: 'One short line' },
-    { name: 'Skill Four', note: 'One short line' },
-    { name: 'Skill Five', note: 'One short line' },
-    { name: 'Skill Six', note: 'One short line' },
+    { name: 'Java + Spring Boot', note: 'REST APIs · Microservices' },
+    { name: 'Python + MCP', note: 'AI agents · Developer tools' },
+    { name: 'React + Node.js', note: 'Full-stack applications' },
+    { name: 'PostgreSQL + Kafka', note: 'Data · Event-driven systems' },
+    { name: 'AWS + API Gateway', note: 'Cloud services · SageMaker' },
+    { name: 'Docker + Kubernetes', note: 'CI/CD · OpenShift · Jenkins' },
   ],
 
   // Six projects — they sit in the six windows of the metro train.
   projects: [
-    { title: 'Project One', blurb: 'One line about the problem it solves.', tags: ['Tech', 'Tech', 'Tech'], href: '#' },
-    { title: 'Project Two', blurb: 'One line about the problem it solves.', tags: ['Tech', 'Tech', 'Tech'], href: '#' },
-    { title: 'Project Three', blurb: 'One line about the problem it solves.', tags: ['Tech', 'Tech', 'Tech'], href: '#' },
-    { title: 'Project Four', blurb: 'One line about the problem it solves.', tags: ['Tech', 'Tech', 'Tech'], href: '#' },
-    { title: 'Project Five', blurb: 'One line about the problem it solves.', tags: ['Tech', 'Tech', 'Tech'], href: '#' },
-    { title: 'Project Six', blurb: 'One line about the problem it solves.', tags: ['Tech', 'Tech', 'Tech'], href: '#' },
+    { title: 'Autonomous Feature Engineering Agent', blurb: 'Built an MCP-powered agent that turns requirements into plans and generated code, then executes and integrates results with CI/CD; reduced manual effort by 80%.', tags: ['Python', 'MCP', 'CI/CD'], href: '#' },
+    { title: 'MR/PR Agent', blurb: 'Customized Qodo PR-Agent with Jira, Confluence, and GitHub context to automate reviews and reduce manual effort by 60%.', tags: ['Python', 'Qodo', 'GitLab CI/CD'], href: 'https://docs.qodo.ai/code-review' },
+    { title: 'Movie Booking & Payment', blurb: 'A Spring Boot microservices system with Kafka booking workflows, seat locking, transactional outbox, and Stripe Checkout.', tags: ['Java', 'Kafka', 'PostgreSQL'], href: 'https://github.com/Harsha975/Booking_service.git' },
+    { title: 'AI Resume Processing', blurb: 'Built an Ollama-based resume workflow that reduced manual resume data entry by 90%.', tags: ['Python', 'Ollama', 'AI'], href: '#' },
+    { title: 'Cost-Efficient LLM Deployment', blurb: 'Deployed a fine-tuned open-source model with SageMaker and API Gateway, reducing chat model API costs by 40%.', tags: ['AWS', 'SageMaker', 'LLM'], href: '#' },
+    { title: 'Fetal Health Prediction Study', blurb: 'Compared machine learning algorithms for fetal health prediction using cardiotocography data; published at IEEE ICITIIT 2025.', tags: ['Machine Learning', 'Research', 'IEEE'], href: 'https://doi.org/10.1109/ICITIIT64777.2025.11040542' },
   ],
 
   experience: {
     title: 'Experience',
     items: [
-      { when: '20XX — Now', role: 'Role title', where: 'Company', text: 'One line about what you did and the result.' },
-      { when: '20XX — 20XX', role: 'Role title', where: 'Company', text: 'One line about what you did and the result.' },
-      { when: '20XX — 20XX', role: 'Role title', where: 'Company', text: 'One line about what you did and the result.' },
-      { when: '20XX — 20XX', role: 'Role title', where: 'Company', text: 'One line about what you did and the result.' },
+      { when: 'Jun 2025 — Now', role: 'SDET - FTE', where: 'Black Duck Software', text: 'Develop cross-cloud Java automation for Cloud Native Coverity on OpenShift, AWS, GCP, and Azure; integrate suites with Jenkins CI/CD for continuous validation.' },
+      { when: 'Sep — Dec 2024', role: 'Machine Learning Intern', where: 'Kridaverse', text: 'Built an AI resume workflow that cut manual data entry by 90% and deployed a fine-tuned LLM that reduced API costs by 40%.' },
     ],
   },
 
   contact: {
     title: 'Contact',
-    headline: 'Let’s build something together.',
+    headline: "Let's build something together.",
     links: [
-      { label: 'Email', value: 'you@example.com', href: 'mailto:you@example.com' },
-      { label: 'LinkedIn', value: 'linkedin.com/in/you', href: 'https://linkedin.com/in/you' },
-      { label: 'GitHub', value: 'github.com/you', href: 'https://github.com/you' },
+      { label: 'Email', value: 'harsham975@gmail.com', href: 'mailto:harsham975@gmail.com' },
+      { label: 'LinkedIn', value: 'linkedin.com/in/harsha-m-649a46268', href: 'https://www.linkedin.com/in/harsha-m-649a46268/' },
+      { label: 'GitHub', value: 'github.com/Harsha975', href: 'https://github.com/Harsha975' },
     ],
   },
 };
